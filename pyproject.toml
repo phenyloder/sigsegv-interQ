@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "sigsegv-interq"
+version = "0.1.0"
+description = ""
+authors = ["Vinayak Das <vindas@cisco.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+pydotenv = "^0.0.7"
+injector = "^0.21.0"
+nltk = "^3.8.1"
+spacy = "^3.7.5"
+pandas = "^2.2.2"
+docx2txt = "^0.8"
+pdfminer = "^20191125"
+llama-index-llms-openai = "^0.1.22"
+tenacity = "8.3.0"
+llama-index = "^0.10.45"
+pymupdf = "^1.24.5"
+sqlalchemy = "^2.0.30"
+cryptography = "^42.0.8"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
